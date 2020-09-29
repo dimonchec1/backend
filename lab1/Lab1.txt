@@ -1,0 +1,48 @@
+1. a. /index.txt - Текстовый файл с содержимым Hello world
+	Content-Type:	text/plain
+	Content-Length: 14
+	Server:		nginx/1.2.2
+
+   b. /image/web_technologies.png
+	Content-Type:   image/png
+	Content-Length: 335525
+	Server:		nginx/1.2.2
+
+   c. /media/Water.mp4
+	Content-Type:	application/octet-stream
+	Content-Length: 1137202
+	Server:		nginx/1.2.2
+
+2. a. http://localhost/lw1/mysql_is_a_database_server.html
+      Status Code: 404 Not Found
+      Ресурс не найден, нужно разменстить его по заданному адресу.
+      Код ошибки 
+
+   b. http://localhost/lw1/nginx_is_fast_http_server.txt
+      Status Code: 200 OK
+      Успешно обработынный запрос
+      Описывает специальное поведение веб сервера
+
+   c. http://localhost/lw1/php_is_a_server_scripting_language.php
+      Status Code: 302 Found
+      Запрошенный ресурс был временно перемещен по адресу, указанному в заголовке Location.
+      Описывает специальное поведение веб сервера
+
+   d. http://localhost/lw1/javascript_is_a_client_side_language.php?how_to_work=hardly
+      Status Code: 400 Work hard!
+      Плохой запрос от клиента.
+      Нужно изменить на:
+      http://localhost/lw1/javascript_is_a_client_side_language.php?how_to_work=hard
+      Код ошибки
+
+3.    Charset нужен для того чтобы указать кодировку символов документа.
+      В ином случае будет использоватся charset ISO-8859-1.
+      Т. к. файл в кодировке utf-8, чтобы он правильно отобразился нужно 
+      добавить тег <meta charset="UTF-8"> в head
+      
+
+      
+
+      
+
+
