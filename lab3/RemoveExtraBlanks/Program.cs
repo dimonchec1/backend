@@ -48,10 +48,6 @@ namespace RemoveExtraBlanks
                     strWriter.WriteLine(str);
                 }
             }
-
-
-
-
         }
 
         public static int Main(string[] args)

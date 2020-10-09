@@ -64,7 +64,19 @@ namespace PasswordStrength
         }
         private static void Main(string[] args)
         {
-            var strength = 0;
+            if (args.Length != 1)
+            {
+                Console.WriteLine("Incorrect number of arguments!\nUsage PasswordStrength.exe <input string>");
+                return;
+            }
+
+            if (args[0].Count(ch => !((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z') || (ch >= '0' && ch <= '9'))) > 0)
+            {
+                Console.WriteLine("String must contain only letters or digits!");
+                return;
+            }
+
+                var strength = 0;
             var password = args[0];
             strength += GetStrengthForChars(password);
             strength += GetStrengthForDigits(password);
