@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
 // связанные с этой сборкой.
-[assembly: AssemblyTitle("hello_world")]
+[assembly: AssemblyTitle("RemoveExtraBlanks")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("hello_world")]
+[assembly: AssemblyProduct("RemoveExtraBlanks")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID представляет идентификатор typelib, если этот проект доступен из модели COM
-[assembly: Guid("3042337a-5fe2-456a-8edf-2f483005c081")]
+[assembly: Guid("efd40836-14ef-4d78-87a5-45b1ce8e5f7b")]
 
 // Сведения о версии сборки состоят из указанных ниже четырех значений:
 //

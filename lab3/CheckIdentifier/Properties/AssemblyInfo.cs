@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
 // связанные с этой сборкой.
-[assembly: AssemblyTitle("remove_duplicates")]
+[assembly: AssemblyTitle("CheckIdentifier")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("remove_duplicates")]
+[assembly: AssemblyProduct("CheckIdentifier")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID представляет идентификатор typelib, если этот проект доступен из модели COM
-[assembly: Guid("7256cafe-ef71-45ee-bde2-d3b0a5a58fdd")]
+[assembly: Guid("8d313d97-c4d2-4485-97b6-3b50a9dfa257")]
 
 // Сведения о версии сборки состоят из указанных ниже четырех значений:
 //

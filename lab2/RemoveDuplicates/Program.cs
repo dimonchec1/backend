@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace remove_duplicates
+namespace RemoveDuplicates
 {
     class Program
     {
@@ -16,15 +16,11 @@ namespace remove_duplicates
             }
             else
             {
-                string duplicates = "";
-                foreach (char item in args[0])
+                var duplicates = "";
+                foreach (var ch in args[0].Where(ch => !duplicates.Contains(ch)))
                 {
-                    if (duplicates.Contains(item))
-                    {
-                        continue;
-                    }
-                    duplicates += item;
-                    Console.Write(item);
+                    duplicates += ch;
+                    Console.Write(ch);
                 }
                 Console.WriteLine();
             }

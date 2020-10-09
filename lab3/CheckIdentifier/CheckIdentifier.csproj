@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7256CAFE-EF71-45EE-BDE2-D3B0A5A58FDD}</ProjectGuid>
+    <ProjectGuid>{8D313D97-C4D2-4485-97B6-3B50A9DFA257}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>remove_duplicates</RootNamespace>
-    <AssemblyName>remove_duplicates</AssemblyName>
+    <RootNamespace>CheckIdentifier</RootNamespace>
+    <AssemblyName>CheckIdentifier</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,7 +17,7 @@ namespace print_args
             else
             {
                 Console.WriteLine("Number of arguments: " + args.Length);
-                Console.WriteLine("Arguments: " + String.Join(" ", args));
+                Console.WriteLine("Arguments: " + string.Join(" ", args));
             }
         }
     }

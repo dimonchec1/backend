@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3042337A-5FE2-456A-8EDF-2F483005C081}</ProjectGuid>
+    <ProjectGuid>{8FC4ADEF-198F-4AE7-9921-7775F086C14E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>hello_world</RootNamespace>
-    <AssemblyName>hello_world</AssemblyName>
+    <RootNamespace>PrintArgs</RootNamespace>
+    <AssemblyName>PrintArgs</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
